@@ -1,0 +1,1 @@
+cookbook 'opsworks-php7', github: "shimma/chef-opsworks-php7"
