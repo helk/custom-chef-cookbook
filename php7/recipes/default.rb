@@ -6,7 +6,7 @@ end
 bash 'overrride install php7.2' do
   code <<-EOH
     yum update -y
-    sudo amazon-linux-extras install -y php7.2
+    amazon-linux-extras install -y php7.2
     
     a2dismod php5
     a2enmod php7.2
