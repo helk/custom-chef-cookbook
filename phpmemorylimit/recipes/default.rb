@@ -1,3 +1,7 @@
+service 'apache2' do
+  action :nothing
+end
+
 Chef::Log.info("Starting PHP Memory Limit update")
 bash "change_phpmemorylimit" do
   user "root"
